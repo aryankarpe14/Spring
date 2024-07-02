@@ -1,0 +1,14 @@
+Annotations used in Spring Boot:
+
+1. @GetMapping - used in Controller (get data)
+2. @PostMapping - used in Controller (insert data)
+3. @PutMapping - used in Controller (update date)
+4. @DeleteMapping - used in Controller (delete data)
+5. @ComponentScan - used in Main (scan all packages)
+6. @EntityScan - used in Main (scan pojo class package)
+7. @EnableJpaRepositories(basePackages =" ") - used in Main (scan repository class package)
+8. @Service - used in ServiceImpl (used to declare service)
+9. @Autowired -used before calling object (used to access all data of object)
+10.@RestController - used in Controller (used to declare Controller)
+11.@PathVariable - used in Controller (used to access input from path)
+12.@RequestBody - used in Controller (used to access input from Body)
